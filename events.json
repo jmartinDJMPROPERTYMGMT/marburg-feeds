@@ -1,0 +1,106 @@
+{
+  "feed_version": 1,
+  "generated": "2026-10-13T21:30:00-04:00",
+  "scan_window": {
+    "from": "2026-10-13",
+    "to": "2026-12-10"
+  },
+  "events": [
+    {
+      "id": "remembrance-day-2026-11-15",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "when": "Sat, Nov 14",
+      "title": "Remembrance Day Parade",
+      "url": "https://destinationgettysburg.com/event/gettysburg-remembrance-day-parade/",
+      "category": "History",
+      "venue": "Gettysburg",
+      "distance": "35 min away",
+      "note": "Thousands of re-enactors parade through town. The weekend to book early.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://suvcw.org/remembrance-day",
+          "https://sites.google.com/site/remembrancedayparade",
+          "https://destinationgettysburg.com/event/gettysburg-remembrance-day-parade/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "remembrance-day-illumination-2026-11-21",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "when": "Sat, Nov 21",
+      "title": "Remembrance Day Illumination",
+      "url": "https://destinationgettysburg.com/event/24th-annual-remembrance-day-illumination/",
+      "category": "History",
+      "venue": "Gettysburg National Cemetery",
+      "distance": "35 min away",
+      "note": "A candle for every soldier buried there, lit after dark. 5:30 to 9:30 PM.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://destinationgettysburg.com/event/24th-annual-remembrance-day-illumination/",
+          "https://www.nps.gov/gett/planyourvisit/dedication-day.htm"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "dedication-day-2026-11-19",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "when": "Thu, Nov 19",
+      "title": "Dedication Day",
+      "url": "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
+      "category": "History",
+      "venue": "Soldiers' National Cemetery, Gettysburg",
+      "distance": "35 min away",
+      "note": "Anniversary of the Gettysburg Address, read aloud where it was given. Procession 10 AM, ceremony 11 AM.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
+          "https://destinationgettysburg.com/event/gettysburg-remembrance-day-parade/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    }
+  ],
+  "source_report": [
+    {
+      "source": "suvcw.org",
+      "state": "ok",
+      "note": "organising body; parade date confirmed"
+    },
+    {
+      "source": "gettysburgconnection.org",
+      "state": "distrust",
+      "note": "serving a 2022 schedule under a 2026 footer"
+    },
+    {
+      "source": "carrollcountytourism.org",
+      "state": "distrust",
+      "note": "event pages served 2025 dates on 8 Oct"
+    }
+  ]
+}
