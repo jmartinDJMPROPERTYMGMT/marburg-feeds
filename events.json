@@ -1,6 +1,6 @@
 {
   "feed_version": 1,
-  "generated": "2026-10-13T21:30:00-04:00",
+  "generated": "2026-10-16T08:30:00-04:00",
   "scan_window": {
     "from": "2026-10-13",
     "to": "2026-12-10"
@@ -81,6 +81,51 @@
           "weekday_ok": true,
           "in_window": true,
           "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "zz-test-wrong-weekday",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "when": "Sat, Nov 15",
+      "title": "TEST - Do Not Publish (wrong weekday check)",
+      "url": "https://example.com/",
+      "category": "History",
+      "venue": "Verification test",
+      "distance": "0 min away",
+      "note": null,
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://suvcw.org/a",
+          "https://destinationgettysburg.com/b"
+        ],
+        "checks": {
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "zz-test-single-source",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "when": "Fri, Nov 20",
+      "title": "TEST - Do Not Publish (single source check)",
+      "url": "https://example.com/",
+      "category": "History",
+      "venue": "Verification test",
+      "distance": "0 min away",
+      "note": null,
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://carrollcountytourism.org/only-one"
+        ],
+        "checks": {
           "cancellation_signals": false
         }
       }
