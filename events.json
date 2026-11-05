@@ -1,29 +1,53 @@
 {
   "feed_version": 1,
-  "generated": "2026-10-16T08:34:00-04:00",
+  "generated": "2026-11-05T01:05:00-05:00",
   "scan_window": {
-    "from": "2026-10-13",
-    "to": "2026-12-10"
+    "from": "2026-11-05",
+    "to": "2026-12-31"
   },
   "events": [
     {
-      "id": "remembrance-day-2026-11-15",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "when": "Sat, Nov 14",
-      "title": "Remembrance Day Parade",
-      "url": "https://destinationgettysburg.com/event/gettysburg-remembrance-day-parade/",
-      "category": "History",
-      "venue": "Gettysburg",
-      "distance": "35 min away",
-      "note": "Thousands of re-enactors parade through town. The weekend to book early.",
+      "id": "secret-garden-wine-festival-2026-11-07",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "when": "Sat, Nov 7, 11 AM",
+      "title": "Secret Garden Wine Festival",
+      "url": "https://carrollcountyfarmmuseum.org/event/secret-garden-wine-festivals/2026-11-07/",
+      "category": "Food & Drink",
+      "venue": "Carroll County Farm Museum, Westminster MD",
+      "distance": "25 min away",
+      "note": "An outdoor wine festival on the museum grounds, and the last big daytime event before the holiday season takes over.",
+      "status": "active",
+      "verification": {
+        "tier": "held",
+        "sources": [
+          "https://carrollcountyfarmmuseum.org/event/secret-garden-wine-festivals/2026-11-07/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": false,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "plants-in-the-park-2026-11-12",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "when": "Thu, Nov 12, 11 AM",
+      "title": "Plants in the Park",
+      "url": "https://events.dcnr.pa.gov/event/plants-in-the-park-540",
+      "category": "Outdoors",
+      "venue": "Codorus State Park, Pavilion 3",
+      "distance": "3 min away",
+      "note": "A free ranger-led plant walk at the park next door, with a second session at 2 PM if the morning does not suit.",
       "status": "active",
       "verification": {
         "tier": "verified",
         "sources": [
-          "https://suvcw.org/remembrance-day",
-          "https://sites.google.com/site/remembrancedayparade",
-          "https://destinationgettysburg.com/event/gettysburg-remembrance-day-parade/"
+          "https://events.dcnr.pa.gov/event/plants-in-the-park-540",
+          "https://extension.psu.edu/"
         ],
         "checks": {
           "weekday_ok": true,
@@ -34,22 +58,49 @@
       }
     },
     {
-      "id": "remembrance-day-illumination-2026-11-21",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "when": "Sat, Nov 21",
-      "title": "Remembrance Day Illumination",
-      "url": "https://destinationgettysburg.com/event/24th-annual-remembrance-day-illumination/",
+      "id": "remembrance-day-2026-11-15",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "when": "Sat, Nov 14",
+      "title": "Gettysburg Remembrance Day Parade",
+      "url": "https://suvcw.org/remembrance-day",
       "category": "History",
-      "venue": "Gettysburg National Cemetery",
+      "venue": "Baltimore Street, Gettysburg",
       "distance": "35 min away",
-      "note": "A candle for every soldier buried there, lit after dark. 5:30 to 9:30 PM.",
+      "note": "The 70th annual parade fills the town with Civil War re-enactors, and watching from the sidewalk costs nothing.",
       "status": "active",
       "verification": {
         "tier": "verified",
         "sources": [
-          "https://destinationgettysburg.com/event/24th-annual-remembrance-day-illumination/",
-          "https://www.nps.gov/gett/planyourvisit/dedication-day.htm"
+          "https://suvcw.org/remembrance-day",
+          "https://generalmeadesociety.org/",
+          "https://pastlanetravels.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "cinderella-panto-2026-11-15",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "when": "Sun, Nov 15, 3 PM",
+      "title": "Cinderella (The Panto Company USA)",
+      "url": "https://theeich.org/ovationtix_series/cinderella/",
+      "category": "Theatre",
+      "venue": "Eichelberger Performing Arts Center, Hanover",
+      "distance": "15 min away",
+      "note": "A British-style family pantomime at the nearest theatre, timed so you can still have a slow morning at the cabin.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://theeich.org/ovationtix_series/cinderella/",
+          "https://mainstreethanover.org/"
         ],
         "checks": {
           "weekday_ok": true,
@@ -63,19 +114,439 @@
       "id": "dedication-day-2026-11-19",
       "start": "2026-11-19",
       "end": "2026-11-19",
-      "when": "Thu, Nov 19",
-      "title": "Dedication Day",
+      "when": "Thu, Nov 19, 10 AM",
+      "title": "Dedication Day: 163rd Anniversary of the Gettysburg Address",
       "url": "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
       "category": "History",
-      "venue": "Soldiers' National Cemetery, Gettysburg",
+      "venue": "Gettysburg National Cemetery",
       "distance": "35 min away",
-      "note": "Anniversary of the Gettysburg Address, read aloud where it was given. Procession 10 AM, ceremony 11 AM.",
+      "note": "A free ceremony on the spot where Lincoln spoke, with a procession from the Wills House beforehand.",
       "status": "active",
       "verification": {
         "tier": "verified",
         "sources": [
           "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
-          "https://destinationgettysburg.com/event/gettysburg-remembrance-day-parade/"
+          "https://lincolnatgettysburg.org/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "bob-marley-stand-up-comedy-2026-11-20",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "when": "Fri, Nov 20, 7 PM",
+      "title": "Bob Marley: Stand-Up Comedy",
+      "url": "https://theeich.org/ovationtix_series/bob-marley-stand-up-comedy-2/",
+      "category": "Theatre",
+      "venue": "Eichelberger Performing Arts Center, Hanover",
+      "distance": "15 min away",
+      "note": "A Friday-night comedy show fifteen minutes from the door, good for a couple who want an evening out without a long drive.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://theeich.org/ovationtix_series/bob-marley-stand-up-comedy-2/",
+          "https://mainstreethanover.org/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "bright-nights-york-2026-11-20",
+      "start": "2026-11-20",
+      "end": "2026-12-27",
+      "when": "Fri, Nov 20 – Sun, Dec 27",
+      "title": "Bright Nights York",
+      "url": "https://www.brightnightsyork.com/home",
+      "category": "Holiday",
+      "venue": "WellSpan Park, York",
+      "distance": "40 min away",
+      "note": "A walk-through light display around the downtown ballpark, open evenings from 5 to 9 PM on timed tickets; it is closed Thanksgiving and Christmas Day, so check the night before driving over.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://www.brightnightsyork.com/home",
+          "https://yorkrevolution.com/",
+          "https://downtownyorkpa.com/",
+          "https://oursportscentral.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "remembrance-day-illumination-2026-11-21",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "when": "Sat, Nov 21, 5:30 PM",
+      "title": "Remembrance Day Illumination",
+      "url": "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
+      "category": "History",
+      "venue": "Gettysburg National Cemetery",
+      "distance": "35 min away",
+      "note": "A candle on each of the 3,512 soldiers' graves after dark, free to walk through, and on its own weekend this year rather than parade day.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
+          "https://visithersheyharrisburg.org/",
+          "https://pastlanetravels.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "christmastime-in-loganville-2026-11-21",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "when": "Sat, Nov 21, 9 AM",
+      "title": "Christmastime in Loganville",
+      "url": "https://www.brownsorchards.com/events/main/christmastime-in-loganville",
+      "category": "Holiday",
+      "venue": "Brown's Orchard & Farm Market, Loganville",
+      "distance": "30 min away",
+      "note": "A holiday open house at a working orchard and market, with Santa photos from 10 AM and no tickets needed.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://www.brownsorchards.com/events/main/christmastime-in-loganville",
+          "https://marketsatshrewsbury.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "christmas-magic-festival-of-lights-2026-11-27",
+      "start": "2026-11-27",
+      "end": "2026-12-30",
+      "when": "Fri, Nov 27 – Wed, Dec 30",
+      "title": "Christmas Magic: A Festival of Lights",
+      "url": "https://www.yorkpa.org/event/christmas-magic-a-festival-of-lights/46042/",
+      "category": "Holiday",
+      "venue": "Rocky Ridge County Park, York",
+      "distance": "40 min away",
+      "note": "A half-mile lit woodland trail you walk rather than drive, closed December 24 and 25 and by online reservation only.",
+      "status": "active",
+      "verification": {
+        "tier": "held",
+        "sources": [
+          "https://www.yorkpa.org/event/christmas-magic-a-festival-of-lights/46042/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": false,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "christmas-elves-express-2026-11-27",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "when": "Fri, Nov 27 – Sun, Nov 29",
+      "title": "Christmas Elves Express",
+      "url": "https://northerncentralrailway.com/holidays-at-northern-central-railway/",
+      "category": "Family",
+      "venue": "Historic New Freedom Station, New Freedom",
+      "distance": "40 min away",
+      "note": "A heritage train ride to Glen Rock over Thanksgiving weekend, with several departures a day and advance booking advised.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://northerncentralrailway.com/holidays-at-northern-central-railway/",
+          "https://mommypoppins.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "christmas-in-hanover-festival-2026-11-28",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "when": "Sat, Nov 28, 11 AM",
+      "title": "Christmas in Hanover Festival",
+      "url": "https://www.christmasinhanoverpa.com/",
+      "category": "Holiday",
+      "venue": "Downtown Hanover",
+      "distance": "15 min away",
+      "note": "Hanover's holiday kickoff: Santa parade at 11, Santa's Cabin, live music in the Square and the tree-lighting countdown at 6 PM.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://www.christmasinhanoverpa.com/",
+          "https://mainstreethanover.org/",
+          "https://discoverhanoverpa.org/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "muppet-christmas-carol-2026-11-28",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "when": "Sat, Nov 28, 12 PM",
+      "title": "The Muppet Christmas Carol on screen",
+      "url": "https://theeich.org/ovationtix_series/the-muppet-christmas-carol/",
+      "category": "Family",
+      "venue": "Eichelberger Performing Arts Center, Hanover",
+      "distance": "15 min away",
+      "note": "Three cheap matinees the same day as the Christmas Festival, so small children get a warm sit-down between the parade and the tree lighting.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://theeich.org/ovationtix_series/the-muppet-christmas-carol/",
+          "https://christmasinhanoverpa.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "holiday-tour-hands-that-built-the-holiday-2026-12-01",
+      "start": "2026-12-01",
+      "end": "2026-12-20",
+      "when": "Tue, Dec 1 – Sun, Dec 20",
+      "title": "Holiday Tour: Hands That Built the Holiday",
+      "url": "https://carrollcountyfarmmuseum.org/events/",
+      "category": "Holiday",
+      "venue": "Carroll County Farm Museum, Westminster MD",
+      "distance": "25 min away",
+      "note": "Decorated historic buildings across the museum grounds, open almost every day of the run, which makes it the easy daytime fallback in December.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://carrollcountyfarmmuseum.org/events/",
+          "https://carrollcountytourism.org/",
+          "https://georgesonyork.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "a-gettysburg-christmas-festival-2026-12-04",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "when": "Fri, Dec 4 – Sun, Dec 6",
+      "title": "A Gettysburg Christmas Festival",
+      "url": "https://www.agettysburgchristmasfestival.com/",
+      "category": "Holiday",
+      "venue": "Downtown Gettysburg",
+      "distance": "35 min away",
+      "note": "A whole downtown given over to markets, a tree lighting and the Tuba Carol Fest, and the best full-day December outing in range.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://www.agettysburgchristmasfestival.com/",
+          "https://mainstreetgettysburg.org/",
+          "https://battlefields.org/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "country-live-tribute-2026-12-05",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "when": "Sat, Dec 5, 7 PM",
+      "title": "Country Live: Chesney, Twain, Urban & Bryan Tribute",
+      "url": "https://theeich.org/ovationtix_series/country-live-tribute-to-kenny-chesney-shania-twain-keith-urban-and-luke-bryan/",
+      "category": "Live Music",
+      "venue": "Eichelberger Performing Arts Center, Hanover",
+      "distance": "15 min away",
+      "note": "A Saturday-night country tribute show at the closest theatre, with easy parking once the shops have shut.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://theeich.org/ovationtix_series/country-live-tribute-to-kenny-chesney-shania-twain-keith-urban-and-luke-bryan/",
+          "https://mainstreethanover.org/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "greens-wreath-workshop-2026-12-05",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "when": "Sat, Dec 5 – Sun, Dec 6",
+      "title": "Greens Wreath Workshop with A&M Growers",
+      "url": "https://adamscountywinery.com/events/",
+      "category": "Food & Drink",
+      "venue": "Adams County Winery, Orrtanna",
+      "distance": "45 min away",
+      "note": "A ticketed make-and-take at the winery across four sessions, and the one December booking that sends guests home with something.",
+      "status": "active",
+      "verification": {
+        "tier": "held",
+        "sources": [
+          "https://adamscountywinery.com/events/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": false,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "we-three-kings-irish-christmas-2026-12-06",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "when": "Sun, Dec 6, 3 PM",
+      "title": "We Three Kings: Irish Christmas Spectacular",
+      "url": "https://theeich.org/ovationtix_series/we-three-kings-irish-christmas-spectacular/",
+      "category": "Live Music",
+      "venue": "Eichelberger Performing Arts Center, Hanover",
+      "distance": "15 min away",
+      "note": "A Sunday-afternoon holiday concert fifteen minutes away, which pairs well with a late checkout.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://theeich.org/ovationtix_series/we-three-kings-irish-christmas-spectacular/",
+          "https://mainstreethanover.org/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "hot-chocolate-cookie-stroll-2026-12-12",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "when": "Sat, Dec 12, 12 PM",
+      "title": "2nd Saturday: Hot Chocolate & Cookie Stroll",
+      "url": "https://mainstreethanover.org/2nd-saturday-december-2/",
+      "category": "Festivals",
+      "venue": "Center Square, Downtown Hanover",
+      "distance": "15 min away",
+      "note": "A ticketed walking tour of downtown cookie and cocoa stops, with check-in from 10:30 AM at the Main Street Hanover tent.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://mainstreethanover.org/2nd-saturday-december-2/",
+          "https://eventbrite.com/",
+          "https://visitpa.com/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": true,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "ccdc-nutcracker-2026-12-12",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "when": "Sat, Dec 12, 1 PM",
+      "title": "The Nutcracker (Carroll County Dance Center)",
+      "url": "https://theeich.org/ovationtix_series/carroll-county-dance-center-presents-the-nutcracker-6/",
+      "category": "Theatre",
+      "venue": "Eichelberger Performing Arts Center, Hanover",
+      "distance": "15 min away",
+      "note": "A local Nutcracker with both a matinee and a 5 PM show, the simplest holiday tradition to book for a family weekend.",
+      "status": "active",
+      "verification": {
+        "tier": "held",
+        "sources": [
+          "https://theeich.org/ovationtix_series/carroll-county-dance-center-presents-the-nutcracker-6/"
+        ],
+        "checks": {
+          "weekday_ok": true,
+          "in_window": true,
+          "corroborated": false,
+          "cancellation_signals": false
+        }
+      }
+    },
+    {
+      "id": "hanover-symphony-winter-concert-2026-12-19",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "when": "Sat, Dec 19, 3 PM",
+      "title": "Hanover Symphony Orchestra Winter Concert",
+      "url": "https://theeich.org/ovationtix_series/hanover-symphony-orchestra-winter-concert-3/",
+      "category": "Live Music",
+      "venue": "Eichelberger Performing Arts Center, Hanover",
+      "distance": "15 min away",
+      "note": "The only orchestral date left before Christmas, on the last full weekend of the window and fifteen minutes from the cabin.",
+      "status": "active",
+      "verification": {
+        "tier": "verified",
+        "sources": [
+          "https://theeich.org/ovationtix_series/hanover-symphony-orchestra-winter-concert-3/",
+          "https://eventticketscenter.com/"
         ],
         "checks": {
           "weekday_ok": true,
@@ -88,19 +559,9 @@
   ],
   "source_report": [
     {
-      "source": "suvcw.org",
+      "source": "manual",
       "state": "ok",
-      "note": "organising body; parade date confirmed"
-    },
-    {
-      "source": "gettysburgconnection.org",
-      "state": "distrust",
-      "note": "serving a 2022 schedule under a 2026 footer"
-    },
-    {
-      "source": "carrollcountytourism.org",
-      "state": "distrust",
-      "note": "event pages served 2025 dates on 8 Oct"
+      "note": "Scan of 2026-11-05 published by hand after the scheduled run could not push"
     }
   ]
 }
