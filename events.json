@@ -7,32 +7,6 @@
   },
   "events": [
     {
-      "id": "bob-marley-stand-up-comedy-2026-11-20",
-      "start": "2026-11-20",
-      "end": "2026-11-20",
-      "when": "Fri, Nov 20, 7 PM",
-      "title": "Bob Marley: Stand-Up Comedy",
-      "url": "https://theeich.org/ovationtix_series/bob-marley-stand-up-comedy-2/",
-      "category": "Theatre",
-      "venue": "Eichelberger Performing Arts Center, Hanover",
-      "distance": "15 min away",
-      "note": "The Maine comedian at the closest real theatre to the cabin, a quarter hour up the road.",
-      "status": "active",
-      "verification": {
-        "tier": "verified",
-        "sources": [
-          "https://theeich.org/ovationtix_series/bob-marley-stand-up-comedy-2/",
-          "https://mainstreethanover.org/events/"
-        ],
-        "checks": {
-          "weekday_ok": true,
-          "in_window": true,
-          "corroborated": true,
-          "cancellation_signals": false
-        }
-      }
-    },
-    {
       "id": "bright-nights-york-2026-11-20",
       "start": "2026-11-20",
       "end": "2026-12-27",
@@ -49,110 +23,6 @@
         "sources": [
           "https://www.brightnightsyork.com/home",
           "https://yorkrevolution.com/bright-nights-york-2026/"
-        ],
-        "checks": {
-          "weekday_ok": true,
-          "in_window": true,
-          "corroborated": true,
-          "cancellation_signals": false
-        }
-      }
-    },
-    {
-      "id": "cowboy-christmas-ncr-2026-11-21",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "when": "Sat, Nov 21",
-      "title": "A Cowboy Christmas Train",
-      "url": "https://northerncentralrailway.com/a-cowboy-christmas/",
-      "category": "Family",
-      "venue": "Historic New Freedom Station, New Freedom",
-      "distance": "40 min away",
-      "note": "A western-themed ride on the old Northern Central line toward Glen Rock; the second year they have run it.",
-      "status": "active",
-      "verification": {
-        "tier": "verified",
-        "sources": [
-          "https://northerncentralrailway.com/a-cowboy-christmas/",
-          "https://usatrainrides.com/holiday-trains/pennsylvania"
-        ],
-        "checks": {
-          "weekday_ok": true,
-          "in_window": true,
-          "corroborated": true,
-          "cancellation_signals": false
-        }
-      }
-    },
-    {
-      "id": "union-mills-christkindlmarkt-2026-11-21",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "when": "Sat, Nov 21, 10 AM",
-      "title": "Christkindlmarkt at Union Mills Homestead",
-      "url": "https://unionmills.org/events/christkindlmarkt/",
-      "category": "Holiday",
-      "venue": "Union Mills Homestead, Westminster MD",
-      "distance": "25 min away",
-      "note": "German-style market in the old grist mill and tannery, with the decorated homestead open for tours until three.",
-      "status": "active",
-      "verification": {
-        "tier": "verified",
-        "sources": [
-          "https://unionmills.org/events/christkindlmarkt/",
-          "https://hsccmd.org/events/historic-happenings-union-mills-homestead-christkindlmarkt/"
-        ],
-        "checks": {
-          "weekday_ok": true,
-          "in_window": true,
-          "corroborated": true,
-          "cancellation_signals": false
-        }
-      }
-    },
-    {
-      "id": "christmastime-in-loganville-2026-11-21",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "when": "Sat, Nov 21, 9 AM",
-      "title": "Christmastime in Loganville",
-      "url": "https://www.brownsorchards.com/events/main/christmastime-in-loganville",
-      "category": "Festivals",
-      "venue": "Brown's Orchard & Farm Market, Loganville",
-      "distance": "30 min away",
-      "note": "Its 41st year, with 22 stops across Loganville and Jacobus and Santa at the orchard from 10 to 1.",
-      "status": "active",
-      "verification": {
-        "tier": "verified",
-        "sources": [
-          "https://www.yorkpa.org/events/christmastime-in-loganville-at-browns-orchard/",
-          "https://christmastimeinloganville.com/home-page"
-        ],
-        "checks": {
-          "weekday_ok": true,
-          "in_window": true,
-          "corroborated": true,
-          "cancellation_signals": false
-        }
-      }
-    },
-    {
-      "id": "remembrance-day-illumination-2026-11-21",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "when": "Sat, Nov 21, 5:30 PM",
-      "title": "Remembrance Day Illumination",
-      "url": "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
-      "category": "History",
-      "venue": "Soldiers' National Cemetery, Gettysburg",
-      "distance": "35 min away",
-      "note": "A candle on each of 3,512 graves while volunteers read the names aloud; free, and one of the quietest things to see all year.",
-      "status": "active",
-      "verification": {
-        "tier": "verified",
-        "sources": [
-          "https://www.nps.gov/gett/planyourvisit/dedication-day.htm",
-          "https://www.wfmd.com/2026/11/04/gettysburg-to-shine-with-3512-candles-honoring-americas-fallen-civil-war-heroes/"
         ],
         "checks": {
           "weekday_ok": true,
@@ -581,6 +451,11 @@
   ],
   "source_report": [
     {
+      "source": "weekly scan 2026-11-26",
+      "state": "failed",
+      "note": "This run could not read any web page (page fetches were not permitted in the unattended run and direct HTTP was refused by the proxy). No new events were gathered and no event was re-verified. The only change is removing events whose end date has passed; all remaining entries, tiers and sources are exactly as verified in the 2026-11-19 scan."
+    },
+    {
       "source": "events.dcnr.pa.gov",
       "state": "changed",
       "note": "Both the Codorus calendar view and the place page stop at Nov 18 2026; zero events in the Nov 19 - Jan 14 window. The calendar also carries a stray 'Sunday, August 22' entry whose weekday matches no recent year. No winter programming is posted for the park three minutes from the cabin."
@@ -639,11 +514,6 @@
       "source": "thegettysburgexperience.com",
       "state": "ok",
       "note": "New find: a dense Gettysburg-area calendar that corroborated the illumination and the Christmas festival. Prints no year on entries, so it works as a second host only alongside a dated source."
-    },
-    {
-      "source": "git proxy / github.com",
-      "state": "failed",
-      "note": "Push refused: jmartinDJMPROPERTYMGMT/marburg-feeds is not in this scheduled run's authorized repository set, so no credential was injected (HTTP 403). Same failure as the Nov 4 run."
     }
   ]
 }
